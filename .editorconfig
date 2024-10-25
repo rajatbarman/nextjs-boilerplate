@@ -1,0 +1,10 @@
+# Root EditorConfig file
+root = true
+
+# Apply settings to all files
+[*]
+indent_style = space        # Use spaces for indentation
+indent_size = 2             # Indent using 2 spaces
+end_of_line = lf            # Use LF for line endings (Unix style)
+insert_final_newline = true # Ensure file ends with a newline
+trim_trailing_whitespace = true # Remove trailing whitespace

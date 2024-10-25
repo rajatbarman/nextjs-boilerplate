@@ -1,7 +1,16 @@
 {
   "compilerOptions": {
+    "target": "ES6",                      // Specifies ECMAScript target version
+    "module": "NodeNext",                   // Specifies module code generation
+    "checkJs": true,                      // Enable error checking for JavaScript
+    "jsx": "preserve",                    // Needed for React/Next.js to work
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules
+    "strictNullChecks": true,
     "paths": {
       "@/*": ["./src/*"]
     }
-  }
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
